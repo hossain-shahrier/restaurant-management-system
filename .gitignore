@@ -1,0 +1,53 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool
+coverage.out
+
+# Logs
+*.log
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+vendor/
+node_modules/
+
+# Compiled binary output
+bin/
+build/
+
+# Go test artifacts
+*.test
+
+# Local environment variables
+.env
+
+# Golangci-lint cache
+.golangci.cache/
+
+# Go module files
+go.sum
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Docker files
+docker-compose.override.yml
